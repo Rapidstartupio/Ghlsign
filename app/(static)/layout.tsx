@@ -4,9 +4,9 @@ import { Metadata } from "next";
 
 const data = {
   description:
-    "Papermark is an open-source document infrastructure for sharing and collaboration. Free alternative to Docsend with custom domain. Manage secure document sharing with real-time analytics.",
-  title: "Papermark | The Open Source DocSend Alternative",
-  url: "https://www.papermark.io",
+    "GHLSign is an open-api document infrastructure for sharing and collaboration. Free alternative to Docsend with custom domain. Manage secure document sharing with real-time analytics.",
+  title: "GHLSign | The Open API DocSend Alternative",
+  url: "https://ghlsign.com",
 };
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: data.title,
     description: data.description,
     url: data.url,
-    siteName: "Papermark",
+    siteName: "GHLSign",
     images: [
       {
         url: "https://www.papermark.io/_static/meta-image.png",

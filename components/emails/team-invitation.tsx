@@ -28,22 +28,22 @@ export default function TeamInvitation({
   return (
     <Html>
       <Head />
-      <Preview>Join the team on Papermark</Preview>
+      <Preview>Join the team on GHLSign</Preview>
       <Tailwind>
         <Body className="bg-white my-auto mx-auto font-sans">
           <Container className="my-10 mx-auto p-5 w-[465px]">
             <Heading className="text-2xl font-normal text-center p-0 mt-4 mb-8 mx-0">
-              <span className="font-bold tracking-tighter">Papermark</span>
+              <span className="font-bold tracking-tighter">GHLSign</span>
             </Heading>
             <Heading className="text-xl font-seminbold text-center p-0 mt-4 mb-8 mx-0">
-              {`Join ${teamName} on Papermark`}
+              {`Join ${teamName} on GHLSign`}
             </Heading>
             <Text className="text-sm leading-6 text-black">Hey!</Text>
             <Text className="text-sm leading-6 text-black">
               <span className="font-semibold">{senderName}</span> ({senderEmail}
               ) has invited you to the{" "}
               <span className="font-semibold">{teamName}</span> team on{" "}
-              <span className="font-semibold">Papermark</span>.
+              <span className="font-semibold">GHLSign</span>.
             </Text>
             <Section className="text-center mt-[32px] mb-[32px]">
               <Button
@@ -58,17 +58,17 @@ export default function TeamInvitation({
               or copy and paste this URL into your browser: <br />
               {`${process.env.NEXT_PUBLIC_BASE_URL}/api/teams/${teamId}/invite?token=${token}`}
             </Text>
-            <Text className="text-sm text-gray-400">Marc from Papermark</Text>
+            <Text className="text-sm text-gray-400">Nathan from GHLSign</Text>
             <Hr />
             <Section className="mt-8 text-gray-400">
               <Text className="text-xs">
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.papermark.io"
+                  href="https://ghlsign.com"
                   className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400"
                   target="_blank"
                 >
-                  papermark.io
+                  GHLSign.com
                 </a>
               </Text>
               <Text className="text-xs">

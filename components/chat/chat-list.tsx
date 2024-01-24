@@ -37,7 +37,7 @@ export function ChatList({ messages, status }: ChatList) {
             </div>
             <div className="flex-1 px-1 ml-4 space-y-2 overflow-hidden">
               <div className="font-semibold select-none">
-                Papermark Assistant
+                GHLSign Assistant
               </div>
               <Skeleton className="h-4 w-64" />
               <Skeleton className="h-4 w-48" />

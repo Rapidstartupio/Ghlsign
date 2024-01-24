@@ -46,7 +46,7 @@ export function ChatInput({
                 disabled={status !== "awaiting_message"}
                 className="min-h-[60px] w-full resize-none bg-transparent px-4 py-[1.3rem] focus:ring-0 sm:text-sm border-none"
                 value={input}
-                placeholder="Message Papermark Assistant..."
+                placeholder="Message GHLSign Assistant..."
                 onChange={handleInputChange}
                 spellCheck={false}
               />

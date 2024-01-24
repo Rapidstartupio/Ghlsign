@@ -3,43 +3,43 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://www.papermark.io",
+      url: "https://ghlsign.com",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/docsend",
+      url: "https://ghlsign.com/alternatives/docsend",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/brieflink",
+      url: "https://ghlsign.com/alternatives/brieflink",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/pandadoc",
+      url: "https://ghlsign.com/alternatives/pandadoc",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/google-drive",
+      url: "https://ghlsign.com/alternatives/google-drive",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/pitch",
+      url: "https://ghlsign.com/alternatives/pitch",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/privacy",
+      url: "https://ghlsign.com/privacy",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/open-source-investors",
+      url: "https://ghlsign.com/open-source-investors",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/docsend-alternatives",
+      url: "https://ghlsign.com/docsend-alternatives",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/oss-friends",
+      url: "https://ghlsign.com/oss-friends",
       lastModified: new Date(),
     },
     {

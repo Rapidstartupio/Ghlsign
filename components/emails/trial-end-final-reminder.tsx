@@ -19,7 +19,7 @@ interface TrialEndFinalReminderEmail {
 }
 
 const TrialEndFinalReminderEmail = ({ name }: TrialEndFinalReminderEmail) => {
-  const previewText = `Upgrade to Papermark Pro`;
+  const previewText = `Upgrade to GHLSign Pro`;
 
   return (
     <Html>
@@ -29,7 +29,7 @@ const TrialEndFinalReminderEmail = ({ name }: TrialEndFinalReminderEmail) => {
         <Body className="bg-white my-auto mx-auto font-sans">
           <Container className="my-10 mx-auto p-5 w-[465px]">
             <Heading className="text-2xl font-normal text-center p-0 mt-4 mb-8 mx-0">
-              <span className="font-bold tracking-tighter">Papermark</span>
+              <span className="font-bold tracking-tighter">GHLSign</span>
             </Heading>
             <Heading className="text-xl font-seminbold text-center p-0 mt-4 mb-8 mx-0">
               Your pro trial expires in 24 hours
@@ -38,7 +38,7 @@ const TrialEndFinalReminderEmail = ({ name }: TrialEndFinalReminderEmail) => {
               Hey{name && ` ${name}`}!
             </Text>
             <Text className="text-sm leading-6 text-black">
-              Your Papermark Pro trial expires in 24 hours.{" "}
+              Your GHLSign Pro trial expires in 24 hours.{" "}
               <Link href={`https://www.papermark.io/settings/billing`}>
                 Upgrade now
               </Link>{" "}

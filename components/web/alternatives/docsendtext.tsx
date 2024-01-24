@@ -75,7 +75,7 @@ const DocSendAlternatives = () => {
               href="http://papermark.io/login"
               className="text-blue-600 underline px-2"
             >
-              Papermark
+              GHLSign
             </a>
             to build more better Docsend alternative
           </p>

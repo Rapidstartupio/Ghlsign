@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Head>
-        <title>Papermark | The Open Source DocSend Alternative</title>
+        <title>GHLSign | The Open API DocSend Alternative</title>
       </Head>
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <main className={inter.className}>

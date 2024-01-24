@@ -27,7 +27,7 @@ export default function Banner() {
       </div>
       <div className="flex justify-center  items-center gap-x-4 gap-y-2">
         <p className="text-sm leading-6 text-white">
-          <strong className="font-semibold">Papermark AI</strong> on Product
+          <strong className="font-semibold">GHLSign AI</strong> on Product
           Hunt
           {/* <svg
             viewBox="0 0 2 2"
@@ -45,7 +45,7 @@ export default function Banner() {
           Follow this madness <span aria-hidden="true"></span>
         </a> */}
         <a
-          href="https://www.producthunt.com/posts/papermark-ai?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-papermark&#0045;ai"
+          href="https://www.producthunt.com/posts/papermark-ai?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-GHLSign&#0045;ai"
           target="_blank"
         >
           <img

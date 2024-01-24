@@ -32,7 +32,7 @@ export default function Register() {
         <div className="flex flex-col items-center justify-center space-y-3 px-4 py-6 pt-8 text-center sm:px-16">
           <Link href="/">
             <span className="text-xl font-bold tracking-tighter text-foreground">
-              Papermark
+              GHLSign
             </span>
           </Link>
           <h3 className="text-2xl text-foreground font-medium">

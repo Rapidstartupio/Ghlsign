@@ -28,13 +28,13 @@ const features = [
   {
     name: "AI-Powered Document Interaction",
     description:
-      "Papermark AI is your personal assistant for interacting with various documents like pitch decks, sales decks, and PDFs, enhancing your document management and sharing experience.",
+      "GHLSign AI is your personal assistant for interacting with various documents like pitch decks, sales decks, and PDFs, enhancing your document management and sharing experience.",
     icon: Cog6ToothIcon,
   },
   {
     name: "Secure Document Sharing",
     description:
-      "With Papermark AI, securely share and manage your documents, ensuring confidential information remains protected.",
+      "With GHLSign AI, securely share and manage your documents, ensuring confidential information remains protected.",
     icon: LockClosedIcon,
   },
   {
@@ -56,53 +56,53 @@ const features = [
     icon: ServerIcon,
   },
   {
-    name: "Open Source",
+    name: "Open API",
     description:
-      "Enjoy the flexibility of an open-source platform, allowing you to tailor Papermark AI to your specific document interaction needs.",
+      "Enjoy the flexibility of an open-api platform, allowing you to tailor GHLSign AI to your specific document interaction needs.",
     icon: CloudArrowUpIcon,
   },
 ];
 
 const faqs = [
   {
-    question: "What is Papermark AI?",
+    question: "What is GHLSign AI?",
     answer:
       "Papermark AI is an innovative AI document assistant that enables users to interact with a variety of documents, such as pitch decks, sales decks, and PDFs, in a more efficient and secure manner.",
   },
   {
-    question: "How can I use Papermark AI?",
+    question: "How can I use GHLSign AI?",
     answer:
       "You can use it on shared with you docuemnt and on received. You can chat with the document, ask question, find information without checking whole document.",
   },
   {
-    question: "Is Papermark AI free?",
+    question: "Is GHLSign AI free?",
     answer:
-      "Yes, Papermark AI offers an open-source version, giving you the freedom to use and modify it according to your needs, under the terms of our license.",
+      "Yes, GHLSign AI offers an open-source version, giving you the freedom to use and modify it according to your needs, under the terms of our license.",
   },
   {
-    question: "How can Papermark AI help me reach more investors?",
+    question: "How can GHLSign AI help me reach more investors?",
     answer:
-      "Papermark AI provides recommendations and analytics to help you fine-tune your pitch decks, increasing your chances of making a successful connection with potential investors.",
+      "GHLSign AI provides recommendations and analytics to help you fine-tune your pitch decks, increasing your chances of making a successful connection with potential investors.",
   },
   {
-    question: "How I as an investor can use Papermark AI?",
+    question: "How I as an investor can use GHLSign AI?",
     answer:
-      "VCs can utilize Papermark AI to efficiently analyze and summarize data from various pitch decks, streamlining their investment decision-making process. Search inside the pitch deck, summarise and turn it into Memo.",
+      "VCs can utilize GHLSign AI to efficiently analyze and summarize data from various pitch decks, streamlining their investment decision-making process. Search inside the pitch deck, summarise and turn it into Memo.",
   },
   {
-    question: "Can I contribute to the Papermark AI project?",
+    question: "Can I contribute to the GHLSign AI project?",
     answer:
-      "Definitely! We welcome contributions to Papermark AI. Whether it's improving the code, adding new features, or reporting bugs, your input is highly valued.",
+      "Definitely! We welcome contributions to GHLSign AI. Whether it's improving the code, adding new features, or reporting bugs, your input is highly valued.",
   },
   {
-    question: "How to summarise document with Papermark AI?",
+    question: "How to summarise document with GHLSign AI?",
     answer:
       "You can use one of the starting commands and get the summary of received docuement. If you want that documents shared with you.",
   },
   {
     question: "How to turn Pitch Deck into Memo?",
     answer:
-      "You can use Papermark AI and ask it to create Memo from Pitch Deck received. You can also uplaod your own Pitch deck there.",
+      "You can use GHLSign AI and ask it to create Memo from Pitch Deck received. You can also uplaod your own Pitch deck there.",
   },
 
   // More questions...
@@ -150,7 +150,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Papermark AI: First AI assistant to chat with shared and received
+        GHLSign AI: First AI assistant to chat with shared and received
           documents
         </title>
         <meta
@@ -194,7 +194,7 @@ export default function Home() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative rounded-full flex items-center px-3 py-1 text-sm leading-6 text-black dark:text-white ring-1 ring-black/10 dark:ring-white/10 hover:ring-white/20">
                   <PapermarkSparkle className="h-4 w-4 mr-1" />
-                  Papermark AI
+                  GHLSign AI
                 </div>
               </div>
               <div className="text-center">
@@ -225,7 +225,7 @@ export default function Home() {
                 href="/login"
                 target="_blank"
               >
-                Sign up to use Papermark AI
+                Sign up to use GHLSign AI
               </Link>
             </div>
 

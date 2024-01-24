@@ -16,21 +16,21 @@ export default function Home() {
       <Head>
         <meta
           name="description"
-          content="Papermark is an open-source document infrastructure for sharing and collaboration. Free alternative to Docsend with custom domain. Manage secure document sharing with real-time analytics."
+          content="GHLSign is an open-api document infrastructure for sharing and collaboration. Free alternative to Docsend with custom domain. Manage secure document sharing with real-time analytics."
         />
         <meta
           property="og:title"
-          content="Papermark | The Open Source DocSend Alternative"
+          content="GHLSign | The Open API DocSend Alternative"
         />
         <meta
           property="og:description"
-          content="Papermark is an open-source document infrastructure for sharing and collaboration. Manage secure document sharing with real-time analytics. It is a free alternative to DocSend."
+          content="GHLSign is an open-api document infrastructure for sharing and collaboration. Manage secure document sharing with real-time analytics. It is a free alternative to DocSend."
         />
         <meta
           property="og:image"
           content="https://www.papermark.io/_static/meta-image.png"
         />
-        <meta property="og:url" content="https://www.papermark.io" />
+        <meta property="og:url" content="https://GHLSign.com" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 

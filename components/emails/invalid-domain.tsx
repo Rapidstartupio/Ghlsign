@@ -29,7 +29,7 @@ export default function InvalidDomain({
         <Body className="bg-white my-auto mx-auto font-sans">
           <Container className="my-10 mx-auto p-5 w-[465px]">
             <Heading className="text-2xl font-normal text-center p-0 mt-4 mb-8 mx-0">
-              <span className="font-bold tracking-tighter">Papermark</span>
+              <span className="font-bold tracking-tighter">GHLSign</span>
             </Heading>
             <Heading className="mx-0 my-7 p-0 text-center text-xl font-semibold text-black">
               {invalidDays >= 14
@@ -38,29 +38,29 @@ export default function InvalidDomain({
             </Heading>
             <Text className="text-sm leading-6 text-black">
               Your domain <code className="text-purple-600">{domain}</code> for
-              your Papermark account{" "}
+              your GHLSign account{" "}
               {invalidDays >= 14
                 ? `has been invalid for ${invalidDays} days.`
                 : `is still unconfigured.`}
             </Text>
             <Text className="text-sm leading-6 text-black">
               If your domain remains unconfigured for 30 days, it will be
-              automatically deleted from Papermark. Please click the link below
+              automatically deleted from GHLSign. Please click the link below
               to configure your domain.
             </Text>
             <Section className="my-8 text-center">
               <Button
                 className="bg-black rounded text-white text-xs font-semibold no-underline text-center"
-                href={`https://www.papermark.io/settings/domains`}
+                href={`https://GHLSign.com/settings/domains`}
                 style={{ padding: "12px 20px" }}
               >
                 Configure domain
               </Button>
             </Section>
             <Text className="text-sm leading-6 text-black">
-              If you do not want to keep this domain on Papermark, you can{" "}
+              If you do not want to keep this domain on GHLSign, you can{" "}
               <Link
-                href={`https://www.papermark.io/settings/domains`}
+                href={`https://ghlsign.com/settings/domains`}
                 className="font-medium text-blue-600 no-underline"
               >
                 delete it
@@ -82,11 +82,11 @@ export default function InvalidDomain({
               <Text className="text-xs">
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.papermark.io"
+                  href="https://ghlsign.com"
                   className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400"
                   target="_blank"
                 >
-                  papermark.io
+                  ghlsign.com
                 </a>
               </Text>
               <Text className="text-xs">

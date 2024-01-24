@@ -31,10 +31,10 @@ export default function ProBanner({
         <span className="sr-only">Close</span>
       </button>
       <div className="flex space-x-2">
-        <span className="font-bold text-sm">✨ Papermark Pro ✨</span>
+        <span className="font-bold text-sm">✨ GHLSign Pro ✨</span>
       </div>
       <p className="my-4 text-sm">
-        Join the Papermark Pro plan to unlock custom domains, team members, and
+        Join the GHLSign Pro plan to unlock custom domains, team members, and
         more.
       </p>
       <div className="flex">

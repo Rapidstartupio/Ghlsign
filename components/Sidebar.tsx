@@ -134,7 +134,7 @@ export default function Sidebar() {
                 <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6 ring-1 ring-foreground/10">
                   <div className="flex h-16 shrink-0 items-center">
                     <p className="text-2xl font-bold tracking-tighter text-black dark:text-white flex items-center">
-                      Papermark{" "}
+                      GHLSign{" "}
                       {userPlan == "pro" ? (
                         <span className="bg-background text-foreground ring-1 ring-gray-800 rounded-full px-2.5 py-1 text-xs ml-4">
                           Pro
@@ -189,7 +189,7 @@ export default function Sidebar() {
         <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6">
           <div className="flex h-16 shrink-0 items-center">
             <p className="text-2xl font-bold tracking-tighter text-black dark:text-white flex items-center">
-              Papermark{" "}
+              GHLSign{" "}
               {userPlan == "pro" ? (
                 <span className="bg-background text-foreground ring-1 ring-gray-800 rounded-full px-2.5 py-1 text-xs ml-4">
                   Pro
@@ -293,10 +293,10 @@ export default function Sidebar() {
                               <p className="block px-3 py-1 text-sm leading-6 text-muted-foreground">
                                 Help?{" "}
                                 <a
-                                  href="mailto:support@papermark.io"
+                                  href="mailto:admin@updates.ghlsign.com"
                                   className="underline hover:text-muted-foreground/80"
                                 >
-                                  support@papermark.io
+                                  admin@updates.ghlsign.com
                                 </a>
                               </p>
                             </Menu.Item>

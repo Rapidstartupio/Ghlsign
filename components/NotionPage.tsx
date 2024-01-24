@@ -116,7 +116,7 @@ export const NotionPage = ({
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <p className="text-2xl font-bold tracking-tighter text-white">
-                    Papermark
+                    GHLSign
                   </p>
                 </div>
               </div>

@@ -54,7 +54,7 @@ export function EmptyScreen({
               <p className="text-2xl text-center">
                 Chat with{" "}
                 <span className="text-2xl font-bold tracking-tighter ">
-                  Papermark
+                  GHLSign
                 </span>
                 &apos;s pitchdeck
               </p>

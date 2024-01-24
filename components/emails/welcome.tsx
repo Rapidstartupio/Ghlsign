@@ -30,14 +30,14 @@ const WelcomeEmail = ({ name }: WelcomeEmailProps) => {
           <Container className="my-10 mx-auto p-5 w-[465px]">
             <Heading className="text-2xl font-normal text-center p-0 mt-4 mb-8 mx-0">
               Welcome to{" "}
-              <span className="font-bold tracking-tighter">Papermark</span>
+              <span className="font-bold tracking-tighter">GHLSign</span>
             </Heading>
             <Text className="text-sm">
               Thanks for signing up{name && `, ${name}`}!
             </Text>
             <Text className="text-sm">
-              My name is Marc, and I&apos;m the creator of Papermark – the
-              open-source DocSend alternative! I&apos;m excited to have you on
+              My name is Nathan, and I&apos;m the creator of GHLSign – the
+              DocSend alternative! I&apos;m excited to have you on
               board!
             </Text>
             <Text className="text-sm">
@@ -91,18 +91,18 @@ const WelcomeEmail = ({ name }: WelcomeEmailProps) => {
                 Let me know if you have any questions or feedback. I&apos;m
                 always happy to help!
               </Text>
-              <Text className="text-sm text-gray-400">Marc from Papermark</Text>
+              <Text className="text-sm text-gray-400">Nathan from GHLSign.com</Text>
             </Section>
             <Hr />
             <Section className="mt-8 text-gray-400">
               <Text className="text-xs">
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.papermark.io"
+                  href="https://ghlsign.com"
                   className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400"
                   target="_blank"
                 >
-                  papermark.io
+                  ghlsign.com
                 </a>
               </Text>
               <Text className="text-xs">

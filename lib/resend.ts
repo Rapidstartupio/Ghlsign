@@ -29,12 +29,12 @@ export const sendEmail = async ({
   }
   return resend.emails.send({
     from: marketing
-      ? "Marc from Papermark <marc@ship.papermark.io>"
+      ? "Nathan from GHLSign <admin@updates.ghlsign.com>"
       : system
-        ? "Papermark <system@papermark.io>"
-        : "Marc from Papermark <marc@papermark.io>",
+        ? "GHLSign <admin@updates.ghlsign.com"
+        : "Nathan from GHLSign <admin@updates.ghlsign.com>",
     to: test ? "delivered@resend.dev" : to,
-    reply_to: marketing ? "marc@papermark.io" : undefined,
+    reply_to: marketing ? "support@ghl.tools" : undefined,
     subject,
     react,
     headers: {

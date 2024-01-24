@@ -60,7 +60,7 @@ export function UpgradePlanModal({
         >
           <motion.div variants={STAGGER_CHILD_VARIANTS}>
             <p className="text-2xl font-bold tracking-tighter text-foreground">
-              Papermark
+              GHLSign
             </p>
           </motion.div>
           <motion.h3
@@ -167,7 +167,7 @@ export function UpgradePlanModal({
                 }}
                 className="text-center text-xs text-muted-foreground underline-offset-4 transition-all hover:text-gray-800 hover:dark:text-muted-foreground/80 hover:underline"
               >
-                Papermark {plan === "Pro" ? "Starter" : "Pro"}
+                GHLSign {plan === "Pro" ? "Starter" : "Pro"}
               </button>
               <p className="text-muted-foreground">•</p>
               <a

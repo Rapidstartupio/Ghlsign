@@ -49,7 +49,7 @@ export default function Nav({
           <div className="flex flex-1 items-stretch justify-start">
             <div className="flex flex-shrink-0 items-center">
               <p className="text-2xl font-bold tracking-tighter text-white">
-                Papermark
+                GHLSign
               </p>
             </div>
           </div>
